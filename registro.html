@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Registro</title>
+  <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+  <form action="gracias.html">
+    <div id="formulario">
+        <h2 id="tituloformulario">Registro</h2>
+        <fieldset>
+          <legend>Información de usuario</legend>
+          <p>
+           <label for="username_id">Nombre de usuario (*): </label>
+           <input id="username_id" type="text" required><br>
+          </p>
+          <p>
+           <label for="email_id">Email (*): </label>
+           <input id="email_id" type="email" required><br>
+          </p>
+          <p>
+            <label for="password_id">Contraseña (*): </label>
+            <input id="password_id" type="password" required><br>
+           </p>
+           <p>
+            <input id="notificaciones_id" type="checkbox">
+            <label for="notificaciones_id">Recibir descuentos exclusivos, novedades y tendencias por e-mail. Me puedo dar de baja desde mi panel.</label><br>
+           </p>
+           <p>
+            <input id="pulitica_id" type="checkbox" required>
+            <label for="politica_id">He leído y acepto la política de privacidad</label><br>
+           </p>
+           <input type="submit" value="Registrarse">
+         </fieldset>
+      </div>
+  </form>
+</body>
+</html>

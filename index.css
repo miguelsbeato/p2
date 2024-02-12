@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+nav ul{
+    background-color: gray;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+nav li:hover{
+    background-color: darkgray;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+img{
+    width: 18rem;
+    height: 18rem;
+}
+
+main{
+    display: block;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+
+.articulos{
+    width: 80%;
+    border-right: 3px solid black;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    position: fixed;
+}
+
+footer p{
+    text-align: center;
+    padding: 0.2rem;
+}
+
+div{
+    display: none;
+}
+
+div:target{
+    display:block;
+}
+
+table{
+    display: block;
+    margin: auto;
+}
+
+table th{
+    padding: 1rem;
+}
+
+table td{
+    text-align: center;
+}
+
+section{
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+.teclado{
+    display: block;
+}
+
+.imagenteclado{
+    width: 40rem;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure{
+    display: flex;
+}
+
+#formulario{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#tituloformulario{
+    text-align: center;
+}
+
+fieldset p{
+    padding: 0.2rem;
+}
+
+.paginainicio{
+    display: flex;
+    padding: 1rem;
+}
+
+#articuloinicio{
+    display: block;
+    width: 33%;
+    text-align: center;
+}
+
+#imageninicio{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+}
+
+#titulo{
+    text-decoration: none;
+}
+
+#opinion{
+    text-align: center;
+}
+
+#opinion p{
+    margin-bottom: 2.5rem;
+}
